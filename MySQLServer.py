@@ -10,5 +10,5 @@ try:
     query = "CREATE DATABASE IF NOT EXISTS alx_book_store"
     mycursor.execute(query)
     print("Database 'alx_book_store' created successfully!")
-except mysqql.connector.Error as e:
+except mysql.connector.Error as e:
     print(f"Error creating database as {e}")
